@@ -1,4 +1,5 @@
 import pytest
+import streamlit as st
 import pandas as pd
 from djhjgfv import children  
 
@@ -56,4 +57,5 @@ class TestTitanicAnalysis:
         
         assert max_ages[1] == 10
         assert max_ages[2] == 8
+
         assert max_ages[3] == 12
